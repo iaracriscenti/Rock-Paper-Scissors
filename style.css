@@ -19,14 +19,14 @@ h1, h3 {
 
 .container div {
     display: inline-block;
-    margin: 10px 5px;
+    margin: 10px 20px;
 }
 
 .texts{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding: 12px 0px;
 }
 
 .texts div {

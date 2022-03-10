@@ -1,0 +1,66 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: rgb(238, 223, 207);
+}
+
+h1, h3 {
+    text-align: center;
+    font-style: italic;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container div {
+    display: inline-block;
+    margin: 15px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.texts div {
+    padding-top: 15px;
+    font-weight: bold;
+    
+}
+
+p {
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    margin: 20px 0px;
+    font-size: larger;
+    text-shadow: 2px 1px 5px rgb(100, 82, 63);
+}
+
+.container button {
+    background: none;
+    border: none; 
+    text-align: center;
+    border-radius: 50%;    
+}
+
+button:hover{
+    box-shadow: 3px 4px 7px black;
+    transition: all 0.7s;
+}
+
+#Restart {
+    display: block;
+    background: linear-gradient(to bottom, rgb(206, 53, 193), rgb(251, 255, 10), rgb(61, 225, 236));
+    border-radius: 10%;
+    border: none;
+    font-weight: bolder;
+    width: 140px;
+    height: 50px;
+}

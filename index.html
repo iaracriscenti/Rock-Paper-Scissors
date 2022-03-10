@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="C:\Users\Iara Criscenti\Desktop\Programación/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <!--<script src="RPS.js"></script>-->
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h3>The winner is the one who reaches 5 points!</h3>
+    <h3>Choose one:</h3>
+    <div class="container">
+        <div class="rock">
+            <button id="Rock" onclick="game('Rock');"><img src="Rock.png" alt="Rock Paper Scissors"></button>
+        </div>
+        <div class="paper">
+            <button id="Paper" onclick="game('Paper');"><img src="Paper.png" alt="Rock Paper Scissors"> </button>
+        </div>
+        <div class="scissors">
+            <button id="Scissors" onclick="game('Scissors');"><img src="Scissors.png" alt="Rock Paper Scissors"></button>
+        </div>
+    </div>
+    <div class="texts">
+        <div class="text"></div>
+        <div class="text1"></div>
+        <div class="text2"><p id="text2"></p></div>
+    </div>
+    
+    <script src="RPS.js"></script>
+</body>
+</html>

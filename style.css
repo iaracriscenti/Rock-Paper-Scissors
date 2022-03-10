@@ -19,7 +19,7 @@ h1, h3 {
 
 .container div {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 5px;
 }
 
 .texts{

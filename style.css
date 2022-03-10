@@ -9,6 +9,7 @@ body {
 h1, h3 {
     text-align: center;
     font-style: italic;
+    padding-top:5px;
 }
 .container {
     display: flex;
